@@ -36,6 +36,7 @@
 }
 
 .container-box {
+  display: grid;
   padding: 40px 10px !important;
   background-image: linear-gradient(
     45deg,
@@ -44,13 +45,17 @@
   );
 }
 
+.col .s12 .m4 .sample{
+  height: 450px;
+}
+
 .box h4 {
   padding-bottom: 30px !important;
 }
 
 .card .project {
   position: absolute;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .section-boxes .row {
