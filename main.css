@@ -14,7 +14,7 @@
   background-position: center;
   height: 100vh;
   min-height: 600px;
-  color: #fff;
+  color: #fff; 
   position: relative;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .box {
-  padding: 40px 10px 10px 10px !important;
+  padding: 60px 10px 10px 10px !important;
   background-image: linear-gradient(45deg, rgb(72, 169, 248), rgb(3, 113, 202));
 }
 
@@ -50,7 +50,7 @@
 
 .card .project {
   position: absolute;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .section-boxes .row {

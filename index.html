@@ -2,19 +2,22 @@
 <html>
 
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-  <link type="text/css" rel="stylesheet" href="css/main.css" />
-
+  <link type="text/css" rel="stylesheet" href="main.css" />
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Heidi M. Puskar Architecture</title>
 </head>
 
 <body id='home' class='scrollspy'>
-  <header class="main-header">
+
+  <!-- MAIN HEADER -->
+  <section class="main-header">
     <div class="primary-overlay">
       <div class="navbar-fixed">
         <nav class="transparent">
@@ -47,11 +50,11 @@
       <div class="showcase container">
         <div class="row">
           <div class="col s12 main-text">
-            <h5>Great design</h5>
-            <h2>The right place to start</h2>
-            <p class="flow-text">Take your project to next level</p>
+            <h4>Architectural design</h4>
+            <!-- <h2>The right place to start</h2> -->
+            <!-- <p class="flow-text">Take your project to next level</p> -->
             <br>
-            <a href="#about" class="btn btn-large white black-text">Learn More</a>
+            <a href="#projects" class="btn btn-large white black-text">See Projects</a>
             <br>
             <div class="row">
               <a href="#boxes" class="white-text">
@@ -63,36 +66,6 @@
        
       </div>
     </div>
-  </header>
-
-<!-- SECTION: BOXES -->
-
-  <section id='boxes' class="section-boxes center scrollspy">
-    <div class="row">
-      <div class="col s12 m6 l3 blue darken-3 white-text box">
-        <i class="material-icons medium">show_chart</i>
-        <h5>Grow your business</h5>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur odit maiores, excepturi eum rerum dicta.
-        </p>
-      </div>
-      <div class="col s12 m6 l3 amber darken-4 white-text box">
-        <i class="material-icons medium">people</i>
-        <h5>Professional Advice</h5>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur odit maiores, excepturi eum rerum dicta.</p>
-      </div>
-        <div class="col s12 m6 l3 blue  darken-3  white-text box">
-        <i class="material-icons medium">verified_user</i>
-        <h5>Building on Time</h5>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur odit maiores, excepturi eum rerum dicta.</p>
-      </div>
-        <div class="col s12 m6 l3 amber  darken-4 white-text box">
-        <i class="material-icons medium">account_balance</i>
-        <h5>Multiply Your Income</h5>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur odit maiores, excepturi eum rerum dicta.
-        </p>
-      </div>
-
-    </div>
   </section>
 
 
@@ -102,13 +75,13 @@
     <div class="container">
       <h3>About Heidi M. Puskar Architecture</h3>
       <p class='flow-text' >
-        Heidi specializes in small commercial buildings and residential projects. 
+        Specialized in small commercial buildings and residential projects. 
       </p>
-      <p>       
-        Heidi was born and raised in Helsinki, Finland. She graduated from University of Hawaii in 1995 and obtained an Architecure degree from SCI-ARC, Los Angeles. Heidi has a California architect’s license since 2000 and carries omissions and errors policy.
+      <p class='flow-text' >       
+        Heidi was born and raised in Helsinki, Finland. She graduated from University of Hawaii,  and obtained an Architecure degree from SCI-ARC, Los Angeles. Heidi has a California architect&#8217s license since 2000 and carries omissions and errors policy.
       </p>
-      <p>
-        Her architecture office is equiped to handle the whole design process, builts and drafting, and works with regular structural engineers for any size project. Her office takes care of the full complicated permit process for residential services for the City of Los Angeles Building and Safety: Green, LID, Title-24, and for all surrounding cities — from Santa Barbara & Kern Counties to Orange and Riverside Counties.</p>
+      <p class='flow-text' >
+        Her architecture office is equiped to handle the whole design process, builts and drafting, and works with regular structural engineers for any size project. Her office takes care of the full complicated permit process for residential services for the City of Los Angeles Building and Safety: Green, LID, Title-24, as well as for all surrounding cities &#8212 from Santa Barbara & Kern Counties to Orange and Riverside Counties.</p>
       <div class="row">
         <div class="col s12 m6">
           <img src="img/heidi.jpg" alt="heidi" class="responsive-img circle" style='height:280px;'>
@@ -121,23 +94,23 @@
             </li>
             <li class="collection-item">
               <i class="material-icons left">check</i>
-              Commercial & residential
-            </li>
-            <li class="collection-item">
-              <i class="material-icons left">check</i>
               New constructions and renovations
             </li>
             <li class="collection-item">
               <i class="material-icons left">check</i>
-              Permits in Los Angeles and more
+              Commercial & residential buildings
             </li>
             <li class="collection-item">
               <i class="material-icons left">check</i>
-              Architectural Plans
+              Architectural plans drafting
             </li>
             <li class="collection-item">
               <i class="material-icons left">check</i>
-              Aromatheraphy
+              City of Los Angeles Building and Safety and surrounding cities permits
+            </li>
+            <li class="collection-item">
+              <i class="material-icons left">check</i>
+              From Santa Barbara and Kern to Orange & Riverside Counties
             </li>
           </ul>
         </div>
@@ -147,76 +120,81 @@
 
 <!-- SECTION: PROJECTS -->
 
-
 <section id='projects' class="section section-projects scrollspy">
-    <div class="container-box">
+  <div class="container-box">
+    <h3 class='center'> <span class='white-text'> Selected Projects</span></h3>
       <div class="row">
-        <h5 class='center'> <span > </span><span class='white-text'> Selected Projects</span></h5>
         <div class="col s12 m4">
-          <div class="card project z-depth-3">
+          <div class="card ste z-depth-3">
             <div class="card-image ">
               <img class='materialboxed responsive-img' src='img/millis_residence1.jpg' alt="Mills Residence">
               <span class="card-title">Mills Residence</span>
             </div>  
             <div class="card-content">
-                <p>New residential construction. Frazier Park, CA</p>
+                <p>New residential construction. <br>
+                  Frazier Park, CA</p>
               </div>
           </div>
         </div>
-        <div class="col s12 m4">
-          <div class="card project z-depth-3">
+        <div class="col s12 m4 sample">
+          <div class="card ste z-depth-3">
             <div class="card-image">
               <img class='materialboxed responsive-img' src='img/yoga-word1.jpg' alt="Yoga Wolrd">
               <span class="card-title">Yoga Works</span>
             </div>
             <div class="card-content">
-              <p>Commercial space renavation for yoga studio. Long Beach, CA</p>
+              <p>Commercial space renovation. </br>
+                Long Beach, CA</p>
             </div>
           </div>
         </div>
-        <div class="col s12 m4">
-          <div class="card project z-depth-3">
+        <div class="col s12 m4 sample">
+          <div class="card ste z-depth-3">
             <div class="card-image">
               <img class='materialboxed responsive-img' src='img/nardian-way3.jpg' alt="nardian">
               <span class="card-title">Nardian Way</span>
             </div>
             <div class="card-content">
-              <p>Residential Renovation, Westchester, CA</p>
+              <p>Residential Renovation.<br>
+                 Westchester, CA</p>
             </div>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col s12 m4">
-          <div class="card  z-depth-3">
+        <div class="col s12 m4 sample">
+          <div class="card ste z-depth-3">
             <div class="card-image ">
               <img class='materialboxed responsive-img' src='img/redwood_studios1.jpg' alt="redwood">
               <span class="card-title">Redwood Studios</span>
             </div>  
             <div class="card-content">
-                <p> Old warehouse turned tenant spaces. Marina Del Rey, CA</p>
+                <p> Old warehouse turned into tenant spaces. <br>
+                  Marina Del Rey, CA</p>
               </div>
           </div>
         </div>
-        <div class="col s12 m4">
-          <div class="card z-depth-3">
+        <div class="col s12 m4 sample">
+          <div class="card ste z-depth-3">
             <div class="card-image">
               <img class='materialboxed responsive-img' src='img/lili-bleu1.jpg' alt="lili-bleu">
-              <span class="card-title">Lily Bleu</span>
+              <span class="card-title">Lily Bleu Girl's Fashion</span>
             </div>
             <div class="card-content">
-              <p>Lily Bleu girls’ fashion design studio and office renovations. Gardena, CA.</p>
+              <p>Fashion design studio and office renovations. <br>
+                Gardena, CA.</p>
             </div>
           </div>
         </div>
-        <div class="col s12 m4">
-          <div class="card  z-depth-3">
+        <div class="col s12 m4 sample">
+          <div class="card ste  z-depth-3">
             <div class="card-image">
               <img class='materialboxed responsive-img' src='img/howl-moon1.jpg' alt="How Moon">
               <span class="card-title">Howl at the Moon</span>
             </div>
             <div class="card-content">
-              <p>Howl at the Moon piano bar Universal City Walk. Hollywood, CA</p>
+              <p>Piano bar renovation at Universal City Walk. <br>
+                Hollywood, CA</p>
             </div>
           </div>
         </div>
@@ -310,7 +288,7 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class='white-text' >Heidi M. Puskar Architecture</h5>
-          <p class="grey-text text-lighten-4">1300 S Beacon St #200, Rancho Palos Verdes, CA 90731</p>
+          <p class="grey-text text-lighten-4">29431 N Enrose Ave. \ Rancho Palos Verdes; CA 90275</p>
           <p>Phone: (310) 770-2791</p>
         </div> 
         <div class="col l4 offset-l2 s12">
@@ -326,7 +304,7 @@
     </div>
     <div class="footer-copyright blue-grey darken-4">
       <div class="container">
-      Heidi M. Puskar Architecture   |  © 2019 Copyright 
+      Heidi M. Puskar Architecture   |    Copyright  2019
       <a class="grey-text text-lighten-4 right" href="#">
         <i class="material-icons left">keyboard_arrow_up</i>
       </a>
@@ -336,11 +314,13 @@
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="jquery.matchHeight.js" type="text/javascript"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script src='http://maps.googleapis.com/maps/api/js'></script>
 
   <script>
     $(document).ready(function () {
+
       // Init Sidenav
       $('.button-collapse').sideNav();
 
@@ -358,7 +338,7 @@
         },
         {
           selector: '.navbar-fixed',
-          offset: 1500,
+          offset: 1200,
           callback: function(){
             $('nav').removeClass('transparent').addClass('blue-grey darken-3');
           }
