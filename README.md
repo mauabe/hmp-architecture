@@ -9,8 +9,9 @@ TODO:
 * [x] Post site online
 
 * [ ] Contact Form functionality
-* [ ] Add more photos
-* [ ] Create carousel - front page
+* [x] Add more photos
+* [x] Create carousel - front page
+* [ ] Add carousel for each project
 * [ ] Nav Button rebound
 * [x] favicon 
 * [ ] celebrate 🥂
